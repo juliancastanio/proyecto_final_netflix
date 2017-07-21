@@ -1,0 +1,174 @@
+  /* Base styles */
+
+body {
+	font-family: arial;
+  margin: 0;
+  padding: 0;
+  background-color: #000; 
+}
+
+h1 {
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-size: 80px;
+    text-align: center;
+    line-height: 70px;
+    padding-top: 20px;
+    font-family: fantasy;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.align-center {
+	text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+    list-style: none;
+    width: 25%;
+    float: left;
+}
+
+ul li img {
+  width: 100%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+p{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+header img{
+  display: block;
+  margin: 20px auto;
+  max-width: 10%;
+}
+
+form{
+  overflow: auto;
+}
+
+form input{
+  float: right;
+} 
+
+form button{
+  margin: auto 100px auto 5px;
+  float: right;
+}
+
+.cargando{
+  display: none;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.fail{
+  display: none;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.lista{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.lista article{
+  max-width: 23%;
+  margin: 5px;
+  display: block;
+}
+
+.lista img{
+  padding-top: 20px;
+  max-width: 100%;
+}
+
+.titulo{
+  text-transform: uppercase;
+}
+
+.descripcion{
+  font-size: 14px;
+}
+
+.rating .anio{
+  font-size: 16px;
+  font-style: italic;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  min-height: 30px;
+  margin-top: 50px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,b9090b+46&0+0,1+46 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(185,9,11,1) 46%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(185,9,11,1) 46%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(185,9,11,1) 46%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b9090b',GradientType=0 ); /* IE6-9 */
+}
+
+footer p{
+  padding-top: 10px;
+}
+
+.to-top{
+  display: none;
+  text-decoration: none;
+  float: right;
+}
+
+.right{
+  text-align: right;
+  padding-right: 50px;
+}
+
+.datos{
+  display: none;
+}
+
+.in-line{
+  display: inline-block;
+}
